@@ -18,6 +18,7 @@ COPY deploy-container/rclone-tasks.json /tmp/rclone-tasks.json
 
 # Fix permissions for code-server
 RUN sudo chown -R coder:coder /home/coder/.local
+RUN sudo chown -R coder:coder /run/screen
 
 # You can add custom software and dependencies for your environment below
 # -----------
