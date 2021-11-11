@@ -1,5 +1,5 @@
 # Start from the code-server Debian base image
-FROM useroneuk/test-vsc-server:latest
+FROM useroneuk/kagaj_ki_aari:latest
 
 USER coder
 
